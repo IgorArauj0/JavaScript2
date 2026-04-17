@@ -15,5 +15,5 @@ console.log("Aluno: " + nome);
 console.log("Matéria: " + materia);
 console.log("Média: " + media);
 
-// Usando template string
+// Usando string template
 console.log(`O aluno ${nome} ficou com média ${media} em ${materia}`);
