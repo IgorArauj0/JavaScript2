@@ -9,14 +9,16 @@ const usuario = {
 const mensagemDeBoasVindas1 = "Bem vindo, torcedor Brasileiro";
 const mensagemDeBoasVindas2 = "Bem vindo, torcedor Argentino";
 
-if(usuario.selecao === 'Brasil') {
-    console.log(mensagemDeBoasVindas1);
-} else {
-    console.log(mensagemDeBoasVindas2)
-}
+usuario.selecao === "Brasil"
+? console.log(mensagemDeBoasVindas1)
+: console.log(mensagemDeBoasVindas2)
+//   ? → “se a condição for verdadeira, faça isso”
+//   : → “senão (caso seja falsa), faça aquilo”
+
 
 const mensagemDeEscolha = "Clique no setor a qual deseja comprar seu ingresso";
 const mensagemFinal = "Divirta-se no Maracanã";
-
 console.log(mensagemDeEscolha);
 console.log(mensagemFinal);
+
+
