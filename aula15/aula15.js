@@ -3,7 +3,7 @@
 
 const usuario = {
     nome: "Pelé",
-    idade: 18,
+    idade: 16,
     selecao: "Brasil"
 }
 
